@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+# Creating instances of the movie class for the movies that will be displayed on the movie website
+
 lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers", 
 						"While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
 						"https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg",
@@ -36,7 +38,10 @@ the_incredibles = media.Movie("The Incredibles",
 							  "https://upload.wikimedia.org/wikipedia/en/e/ec/The_Incredibles.jpg",
 							  "https://www.youtube.com/watch?v=eZbzbC9285I")
 
+# Append each of the movie instances into a list
 movies = [lotr_two_towers, good_will_hunting, grave_of_the_fireflies, you_are_the_apple_of_my_eye, pulp_fiction, wreck_it_ralph, the_incredibles]
+
+# Call the function which will render the movies on the webpage
 fresh_tomatoes.open_movies_page(movies)
 
 print(media.Movie.VALID_RATINGS)
