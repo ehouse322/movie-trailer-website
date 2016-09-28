@@ -25,7 +25,7 @@ you_are_the_apple_of_my_eye = media.Movie("You are the Apple of my Eye",
 		
 pulp_fiction = media.Movie("Pulp Fiction",
 						"The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.", 
-						"https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg",
+						"https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
 						"https://www.youtube.com/watch?v=s7EdQ4FqbhY")
 
 wreck_it_ralph = media.Movie("Wreck it Ralph", 
@@ -43,6 +43,3 @@ movies = [lotr_two_towers, good_will_hunting, grave_of_the_fireflies, you_are_th
 
 # Call the function which will render the movies on the webpage
 fresh_tomatoes.open_movies_page(movies)
-
-print(media.Movie.VALID_RATINGS)
-print(media.Movie.__module__)
